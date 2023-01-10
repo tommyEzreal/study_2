@@ -1,6 +1,6 @@
 ## 선형대수 
 
-> 01/10    
+> [ 01/10 ]     
 > dot-product   
 > projection     
 > vector norm    
