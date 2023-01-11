@@ -9,3 +9,13 @@
 > identity / inverse / diagonal / otrhogonal matrix    
 > rank    
 > null space 
+
+> [ 01/11 ]   
+> Gauss-Jordan elimination
+> inverse martix with gauss elimination
+> determinant
+> trace
+> least squares 
+> eigen value & eigen vector
+> eigen decomposition 
+> 
