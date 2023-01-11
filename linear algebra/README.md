@@ -1,5 +1,6 @@
 ## 선형대수 
 
+## basics
 > [ 01/10 ]     
 > dot-product   
 > projection     
