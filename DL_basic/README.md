@@ -8,5 +8,5 @@
 > partial derivatives, back-propagation.  
 > Stochastic Gradient descent.  
 > vanishing gradient problem    
-> Concolutional Nerual Network    
+> Convolutional Nerual Network    
 > Universal Approximation Theorem    
