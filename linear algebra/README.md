@@ -1,4 +1,8 @@
 # 선형대수 
+> 카이스트 주재걸 교수 <인공지능을 위한 선형대수> 공개강의    
+> 혁펜하임 <보이는 선형대수>
+> 3Blue1Brown <Essence of linear algebra>    
+
 
 ## basics
 > [ 01/10 ]     
