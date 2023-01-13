@@ -46,5 +46,15 @@
 > Affine layer in NN   
 > Onto and one-to-one   
 
+> [ 01/13 ]
+> onto, one-to-one with fully connected layers   
+> Least Square problem   
+> vector norm, distance, angle    
+> over determined system : which one is a better solution?      
+> normal equation  
+> derivation of normal equation   
+> orthogonal projection    
+> orthogonal sets & orthonormal sets   
+> neural net as a projection   
    
 
