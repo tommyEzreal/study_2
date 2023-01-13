@@ -25,7 +25,7 @@
 > eigen decomposition    
 >     
 
-> [ 01/12 ]   
+> [ 01/12 ]     
 > linear equation    
 > linear system    
 > identity matrix & inverse matrix      
@@ -46,7 +46,7 @@
 > Affine layer in NN   
 > Onto and one-to-one   
 
-> [ 01/13 ]
+> [ 01/13 ]  
 > onto, one-to-one with fully connected layers   
 > Least Square problem   
 > vector norm, distance, angle    
