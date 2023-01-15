@@ -56,5 +56,15 @@
 > orthogonal projection    
 > orthogonal sets & orthonormal sets   
 > neural net as a projection   
-   
+
+> [ 01/15 ]  
+> Gram-Schumidt orthogonalization
+> QR factorization   
+> egien value & egien vectors    
+> computational advantage of eigen vectors      
+> null space and eigen vectors   
+> orthogonal complement    
+> characteristic equation     
+> diagonalization       
+
 
