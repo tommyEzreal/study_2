@@ -1,1 +1,1 @@
-d
+BERT from scratch
