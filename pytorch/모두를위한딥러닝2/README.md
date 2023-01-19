@@ -2,4 +2,14 @@
 
 > [ 01/20 ]  
 > Basic Tensor Manipulation   
-> d
+> - Broadcasting    
+> - multiplication vs matmul    
+> - mean    
+> - max and argmax    
+> - View    
+> - Squeeze and Unsqueeze   
+> - Type Casting    
+> - Concatenate   
+> - Stacking    
+> - Ones and Zeros    
+> - in-place operation    
