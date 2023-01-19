@@ -1,4 +1,4 @@
-# study_2
+# study(low level)
 > 2022.12 - 2023.3 
 
 > - 🔥pytorch 정복기
