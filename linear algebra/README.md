@@ -67,4 +67,25 @@
 > characteristic equation     
 > diagonalization       
 
+> [ 01/17 ]   
+> eigen decomposition   
+> linear transformation via eigen decomposition   
+> change of basis   
+> element-wise scaling   
+> back to original basis   
+
+[ 01/19 ]   
+> singular vector decomposition   
+> PCA   
+> eigen decomposition in ML   
+> feature by data-item & vector similarity   
+> diemnsion-reducing transformation   
+
+
+
+
+
+
+
+
 
