@@ -1,6 +1,8 @@
 ## pytorch study
 > [ 12/29 ]   
-> autograd   
+> autograd
+> optimizer    
+> torch dataset   
 
 
 
