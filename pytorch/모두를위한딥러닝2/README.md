@@ -13,3 +13,9 @@
 > - Stacking    
 > - Ones and Zeros    
 > - in-place operation    
+
+
+> [ 01/26 ]   
+> linear regression from scratch    
+> with matrix multiplication    
+> use nn.Module     
