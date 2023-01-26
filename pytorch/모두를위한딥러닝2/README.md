@@ -20,6 +20,6 @@
 > - with matrix multiplication    
 > - use nn.Module     
 
-> [ 01/27 ]
-> sigmoid     
-> logistic regression     
+> [ 01/27 ]   
+> - sigmoid     
+> - logistic regression     
