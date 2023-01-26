@@ -16,6 +16,6 @@
 
 
 > [ 01/26 ]   
-> linear regression from scratch    
-> with matrix multiplication    
-> use nn.Module     
+> - linear regression from scratch    
+> - with matrix multiplication    
+> - use nn.Module     
