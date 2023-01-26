@@ -19,3 +19,7 @@
 > - linear regression from scratch    
 > - with matrix multiplication    
 > - use nn.Module     
+
+> [ 01/27 ]
+> sigmoid     
+> logistic regression     
