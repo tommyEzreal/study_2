@@ -25,5 +25,5 @@
 > - logistic regression     
 
 > [01/30]   
-> softmax calssification (with mnist)   
+> - softmax calssification (with mnist)   
 > 
