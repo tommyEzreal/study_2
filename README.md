@@ -4,7 +4,7 @@
 > - 🔥pytorch 정복기
 > - 🤖transformer 정복기
 > - 🤗huggingface 정복기
-> - ♾️선형대수 정복기
-> - 📄논문구현 
+> - ♾️linear algebra 정복기
+> - 📄papers with code 
 > - ⌨OOP 
 
