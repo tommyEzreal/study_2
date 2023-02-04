@@ -6,7 +6,7 @@
 > dataloader   
 
 
-> [ 01/19 ~ ]   
+> [ 01/19 ~ 02/04 ]   
 > < 모두를 위한 딥러닝 시즌2 >   
 > basic Tensor manipulation   
 > nn.Moudule    
