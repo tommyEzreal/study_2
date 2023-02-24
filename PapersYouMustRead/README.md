@@ -1,0 +1,37 @@
+# PapersYouMustRead 
+
+## NLP
+- Natural Language Processing (Almost) from Scratch Journal(2011)     
+- Recent trends in deep learning based natural language processing(2017) 
+
+- Long Short-Term Memory(1997)
+- LSTM: A Search Space Odyssey(2015)
+- Convolutional neural networks for sentence classification(2014)
+- Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling(2014)
+- Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation 
+- On the Properties of Neural Machine Translation: Encoder-Decoder Approaches(2014)  
+- A Neural Probabilistic Language Model(2003)
+- Distirbuted representations of words and phrases and their compositionality(2013)  
+- Efficient Estimation of Word Representations in Vector Space(2013) 
+- Enriching word vectors with subword information(2016)     
+- Sequence to sequence learning with neural networks(2014)
+- Glove: Global vectors for word representation(2014)
+- Effective Approaches to Attention-based Neural Machine Translation(2015)
+- Neural Machine Translation by Jointly Learning to Align and Translate(2015)
+- Attention is all you need(2017)
+- Deep contextualized word representations(2018)
+- Bert: Pre-training of deep bidirectional transformers for language understanding(2018)
+- Improving language understanding by generative pre-training(2018)
+- Language Models are unsupervised multitask learners(2019)
+- Language Models are Few-Shot Learners(2020)
+
+- Probabilistic latent semantic analysis(1999)
+- An introduction to latent semantic analysis(1998)
+- indexing by latent semantic analysis(1990)
+- TextRank: Bringing Order into Texts(2004)
+- Probabilistic Topic Models(2012)
+- A neural Attention Model for Abstractive Sentence Summurization(2015)
+- Ask Me Anything : Dynamic Memory Networks for Natural Language Processing(2016)
+- Squad: 100,000+ questions for machine comprehension of text(2016)
+- Know what you don't know: Unanswerable questions for SQUAD(2018)
+- Deep learning for sentiment analysis: A survey(2018)
