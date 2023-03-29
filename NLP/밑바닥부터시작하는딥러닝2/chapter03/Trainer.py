@@ -7,6 +7,8 @@ import time
 import matplotlib.pyplot as plt
 from common.np import *
 from common.util import clip_grads
+from common.optimizer import Adam
+from common.util import preprocess
 
 
 class Trainer:
@@ -100,3 +102,35 @@ def remove_duplicate(params, grads):
         if not find_flg: break
 
     return params, grads     
+
+
+if __name__ == '__main__':
+    window_size = 1
+    hidden_size = 5
+    batch_size = 3
+    max_epoch = 1000
+
+    text = 'You say goodbye and I say hello.'
+    # make corpus, word_id index 
+    corpus, word_to_id, id_to_word = preprocess(text)
+
+    vocab_size = len(word_to_id)
+    # make contexts, target vectors(array) 
+    contexts, target = create_contexts_target(corpus, window_size)
+    # make arrays into onehot representation
+    target = convert_one_hot(target, vocab_size)
+    contexts = convert_one_hot(contexts, vocab_size)
+
+    #load model & trainer
+    model = CBOW(vocab_size, hidden_size)
+    optimizer = Adam() # common.optimizer 
+    trainer = Trainer(model,optimizer)
+
+    #train
+    trainer.fit(contexts, target, max_epoch, batch_size)
+    trainer.plot()
+
+    # dense representation of words 
+    word_vecs = model.word_vecs
+    for word_id, word in id_to_word.items():
+        print(word, word_vecs[word_id])
