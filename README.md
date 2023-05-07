@@ -7,4 +7,4 @@
 > - ♾️linear algebra 정복기
 > - 📄papers with code 
 > - ⌨OOP 
-
+> - ⚙️algorithm
