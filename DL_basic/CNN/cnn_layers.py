@@ -109,3 +109,50 @@ def Conv2D_w_C(input_acts, weights, stride):
                 output_act[nf, h//stride, w//stride] = output
     
     return output_act
+
+
+
+#contains padding 
+def Conv2D_w_pad(inputActivations,
+                          weights,
+                          stride,
+                          padding=False):
+    
+    
+
+    #padding
+    if padding:
+        inputActivations = inputActivations.tolist()
+        num_pad = padding
+        c_pad = [0]
+        for i in range(len(inputActivations)):
+            inputActivations[i] = c_pad*num_pad + inputActivations[i] + c_pad*num_pad
+
+        r_pad = [c_pad * len(inputActivations[0])]
+        inputActivations = np.array(r_pad * num_pad + inputActivations + r_pad * num_pad)
+        print(inputActivations)
+    
+    input_h, input_w = inputActivations.shape
+    weight_h, weight_w = weights.shape
+    
+    output_h = (input_h - weight_h)//stride + 1 
+    output_w = (input_w - weight_w)//stride + 1
+    outputActivations = np.zeros((output_h, output_w))
+
+    # convolution 
+    for i in range(output_h):
+        for j in range(output_w):
+
+            sliced_input = inputActivations[(i*stride):(i*stride)+weight_h,
+                                            (j*stride):(j*stride)+weight_w]
+            # out = 0
+            # for k in range(sliced_input.shape[0]):
+            #     for l in range(sliced_input.shape[1]):
+            #         out += sliced_input[k,l] * weights[k,l]
+
+
+            out = np.sum(sliced_input * weights)
+            
+            outputActivations[i,j] = out
+    
+    return outputActivations
