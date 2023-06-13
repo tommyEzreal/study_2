@@ -19,3 +19,20 @@ def solution(nums):
 # len(nums)/2 번뽑기, 
 # if len(nums)/2 > len(sorted) : max = len(sorted) 
 # elif len(nums)/2 <= len(sorted) : max = len(nums)/2
+
+
+
+# https://school.programmers.co.kr/learn/courses/30/lessons/12912
+
+def solution(a, b):
+    answer = 0
+    if a==b:
+        answer = a
+    elif a < b:
+        for i in range(a,b+1):
+            answer+=i
+    else:
+        for i in range(b, a+1):
+            answer += i
+    
+    return answer
